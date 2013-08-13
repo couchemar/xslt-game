@@ -10,12 +10,15 @@ defmodule XsltGame.Mixfile do
 
   # Configuration for the OTP application
   def application do
-    [mod: { XsltGame, [] }]
+    [
+     mod: { XsltGame, [] },
+     applications: [ :epg_pool ]
+    ]
   end
 
   # Returns the list of dependencies in the format:
   # { :foobar, "~> 0.1", git: "https://github.com/elixir-lang/foobar.git" }
   defp deps do
-    []
+    [{ :epg_pool, github: "couchemar/epg_pool" }]
   end
 end
