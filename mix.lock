@@ -1,3 +1,5 @@
 [ "epg_pool": {:git, "git://github.com/couchemar/epg_pool.git", "ee4f7abceadcc7f0e38f9b461019594a66ef1352", []},
   "epgsql": {:git, "git://github.com/wg/epgsql.git", "3318bd5d646cad0623ae9dcc6df015bb85258a63", []},
+  "exconfig": {:git, "git://github.com/yrashk/exconfig.git", "a32762637d366c18477366145c35d5e02428cc53", []},
+  "genx": {:git, "git://github.com/yrashk/genx.git", "a8258499ce6a5a3063ee8f37b9da6361bb799534", []},
   "poolboy": {:git, "git://github.com/devinus/poolboy.git", "91b68de43d49bcccf2631016febda70b20d7aa75", []} ]

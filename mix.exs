@@ -19,6 +19,9 @@ defmodule XsltGame.Mixfile do
   # Returns the list of dependencies in the format:
   # { :foobar, "~> 0.1", git: "https://github.com/elixir-lang/foobar.git" }
   defp deps do
-    [{ :epg_pool, github: "couchemar/epg_pool" }]
+    [
+     { :epg_pool, github: "couchemar/epg_pool" },
+     { :exconfig, github: "yrashk/exconfig" },
+    ]
   end
 end
